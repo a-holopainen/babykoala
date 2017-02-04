@@ -25,7 +25,7 @@ SECRET_KEY = '6w*d891c!nyw(iug3lva3tzj*m56j9ko9pvcc0&_4rr0*=h5!&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [u'192.168.0.104', u'127.0.0.1']
+ALLOWED_HOSTS = [u'192.168.0.104', u'127.0.0.1', u'babykoala.pythonanywhere.com']
 
 
 # Application definition
