@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Hi Sebastian! {{ names.name1 }}
+<br>
+<br>
+<table border="1">
+{% for animal in animals|dictsortreversed:"name"%}
+   <tr>
+       <td>{{ animal.weight }}</td>
+       <td>{{ animal.name }}</td>
+   </tr>
+{% endfor %}
+</table>
+</body>
+</html>
